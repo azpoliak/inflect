@@ -41,7 +41,7 @@
         we observed that we can model this problem in a similar way, where we train a hidden markov model with Viterbi using lemmas and parts of speech to predict the inflection. Originally, our fall-back method
         was to assign \underline{every possible} inflection to a given $(POS_i, lemma_i)$ combination that didn't exist in our model at test-time. However, we modified this to simply fall back on the
         lemma as we had in our other models. This greatly improved our computation time (which was otherwise infeasible on only 20 sentences). This results in a final score of $\boxed{49017 / 70974 = 0.69}$. This implementation process took several hours, it wasn't as if we 
-        simply reused code, and we consider it similar to using a machine learning library which is allowed for other projects, so we felt like we were justified doing this ethically :). 
+        simply reused code, and we consider it similar to using a machine learning library which is allowed for the `extra credit' section of other projects, so we felt like we were justified doing this ethically :).
         The data file can be found at \texttt{./scripts/final\_sub.txt}, and the script is under the scripts directory.
 
 \end{document}
