@@ -12,6 +12,7 @@ import argparse
 import codecs
 import sys
 import os
+import pdb
 from collections import defaultdict
 from itertools import izip
 
